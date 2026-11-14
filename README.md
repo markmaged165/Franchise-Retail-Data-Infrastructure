@@ -61,7 +61,7 @@ Attributes were defined for each entity to accurately represent business operati
 An Entity Relationship Diagram was designed using the pgAdmin ERD Tool.
 
 <p align="center">
-    <img src="erd.png" alt="Coffee Shop ERD" width="900">
+    <img src="Task5B.png" alt="Coffee Shop ERD" width="900">
 </p>
 
 ---
