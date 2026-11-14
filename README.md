@@ -61,7 +61,7 @@ Attributes were defined for each entity to accurately represent business operati
 An Entity Relationship Diagram was designed using the pgAdmin ERD Tool.
 
 <p align="center">
-    <img src="images/erd.png" alt="Coffee Shop ERD" width="900">
+    <img src="erd.png" alt="Coffee Shop ERD" width="900">
 </p>
 
 ---
@@ -94,4 +94,130 @@ Primary and foreign keys were defined to enforce relational integrity.
 | Parent Table | Child Table | Relationship |
 |--------------|-------------|-------------|
 | Product_Type | Product | 1 : N |
-|
+| Sales_Transaction | Sales_Detail | 1 : N |
+| Product | Sales_Detail | 1 : N |
+
+---
+
+### 6️⃣ Database Object Creation
+
+Using pgAdmin's ERD Tool, SQL scripts were generated and executed to create:
+
+<ul>
+    <li>Tables</li>
+    <li>Primary Keys</li>
+    <li>Foreign Keys</li>
+    <li>Constraints</li>
+    <li>Relationships</li>
+</ul>
+
+---
+
+### 7️⃣ View Creation
+
+Database views were developed for analytical reporting and business consumption.
+
+Example reporting use cases:
+
+<ul>
+    <li>Sales summaries</li>
+    <li>Product performance analysis</li>
+    <li>Revenue reporting</li>
+    <li>Transaction monitoring</li>
+</ul>
+
+The resulting data was exported for business stakeholders.
+
+---
+
+### 8️⃣ Materialized View Creation
+
+Materialized views were implemented to optimize frequently executed analytical queries.
+
+Benefits:
+
+<ul>
+    <li>Faster query execution</li>
+    <li>Reduced reporting latency</li>
+    <li>Improved analytical performance</li>
+</ul>
+
+The materialized view results were exported for downstream consumption.
+
+---
+
+## 🛠️ Technologies Used
+
+<ul>
+    <li><strong>PostgreSQL</strong> – Relational Database Management System</li>
+    <li><strong>pgAdmin 4</strong> – Database Administration & ERD Design</li>
+    <li><strong>SQL</strong> – Database Definition and Query Language</li>
+    <li><strong>CSV</strong> – Data Import and Export Format</li>
+</ul>
+
+---
+
+## 📂 Repository Structure
+
+<pre>
+Franchise-Retail-Data-Infrastructure/
+│
+├── images/
+│   └── erd.png
+│
+├── sql/
+│   ├── schema.sql
+│   ├── views.sql
+│   ├── materialized_views.sql
+│   └── constraints.sql
+│
+├── exports/
+│   ├── sales_view.csv
+│   └── sales_materialized_view.csv
+│
+└── README.md
+</pre>
+
+---
+
+## 📈 Project Outcomes
+
+This project demonstrates practical data engineering and database design skills, including:
+
+<ul>
+    <li>Relational Database Design</li>
+    <li>Entity Relationship Modeling</li>
+    <li>Database Normalization</li>
+    <li>SQL Development</li>
+    <li>PostgreSQL Administration</li>
+    <li>Data Integration</li>
+    <li>View & Materialized View Implementation</li>
+    <li>Data Export and Staging Operations</li>
+</ul>
+
+---
+
+## 🚀 Skills Demonstrated
+
+<ul>
+    <li>PostgreSQL</li>
+    <li>SQL DDL & DML</li>
+    <li>Database Modeling</li>
+    <li>ERD Development</li>
+    <li>Data Normalization</li>
+    <li>Primary & Foreign Key Design</li>
+    <li>Business Data Integration</li>
+    <li>Reporting Optimization</li>
+</ul>
+
+---
+
+## 👨‍💻 Author
+
+<b>Mark Magdy Edward Mikhail Sedki</b>
+
+Data Engineer | Data Scientist | AI & Machine Learning Enthusiast
+
+<a href="https://github.com/markmaged165">
+    GitHub Profile
+</a>
